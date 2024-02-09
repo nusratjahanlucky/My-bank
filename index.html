@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>tranding portfolio</h1>
+        <h3>available balance:$<span id="balance-feild">00</span></h3>
+        <h4>available bitcoin:$<span id="btc-feild">00</span>BTC</h4>
+        <h4>available Ethereum:$<span id="eth-feild">00</span>ETH</h4>
+    </div>
+
+    <div>
+        <h1>deposit money</h1>
+        <form>
+            <label for="deposit-box">deposit money:</label>
+            <input id="deposit-box" type="text" placeholder="enter deposit amount">
+            <button id="deposit-btn" type="submit">deposit</button>
+        </form>
+    </div>
+
+    <div>
+        <h1>Buy Coins</h1>
+        <div>
+            <label for="btc-box">Buy Bitcoin:</label>
+            <input id="btc-box" type="text" placeholder="1 BTC = 10$">
+            <button id="buy-btc">buy</button>
+        </div>
+        <br>
+        <div>
+            <label for="eth-box">Buy Ethereum:</label>
+            <input id="eth-box" type="text" placeholder="1 ETH = 5$">
+            <button id="buy-eth">buy</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
